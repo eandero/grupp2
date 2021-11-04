@@ -29,15 +29,15 @@ grupp2
     ```css
     sass --watch input.scss output.css 
     ```
-  * Watch files: 
+  * Watch multiple files: 
     ```css
     sass --watch public/stylesheets/sass:public/stylesheets. 
      ```
      That will monitor all .scss files in public/stylesheets/sass and write them out as .css to         public/stylesheets/
   * lowercase & camelcase
   * use different .scss files for different parts of the website:
-    *navbar.scss
-    *footer.scss
+    * navbar.scss
+    * footer.scss
   * nesting indentation: 
     ```css
     nav {
