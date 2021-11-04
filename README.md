@@ -1,6 +1,6 @@
 grupp2
 
-# HTML guidelines
+## HTML guidelines
 * lowercase 
 * proper indentation:
   ```html
@@ -24,7 +24,7 @@ grupp2
  * semantic!
  * descriptive classes and IDs (don't use ID on multiple tags, is unique)
   
-  # SASS guidelines: 
+  ## SASS guidelines: 
   * Watch one file:
     ```css
     sass --watch input.scss output.css 
@@ -55,7 +55,7 @@ grupp2
     ```
   - whitespace!
   
-  # JS guidelines: 
+  ## JS guidelines: 
   * descriptive variable names
     ```javascript
     var variableName = ""
