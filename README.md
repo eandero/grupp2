@@ -40,10 +40,24 @@ grupp2
     *footer.scss
   * nesting indentation: 
     ```css
-    .ul {
-          .li {
-              }
-        }
+    nav {
+    
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      li { 
+        display: inline-block; 
+      }
+
+      a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+      }
+    }
      ```
   * descriptive commments in english:
     ```css
